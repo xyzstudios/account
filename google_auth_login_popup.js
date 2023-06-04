@@ -20,3 +20,5 @@ signInWithPopup(auth, provider)
     const credential = GoogleAuthProvider.credentialFromError(error);
     // ...
   });
+
+document.getElementById("googleLogin").innerHTML = auth;
